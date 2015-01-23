@@ -48,7 +48,7 @@ makeCacheMatrix <- function(mtrx = matrix()) {
 #create and solve a matrix and set it to makeCacheMatrix object
 cacheSolve <- function(mtrx, ...) {
     
-        ## Return a matrix that is the inverse of 'x'
+    ## Return a matrix that is the inverse of 'mtrx'
     inverse <- mtrx$getInverse()
     
     if(!is.null(inverse)){
